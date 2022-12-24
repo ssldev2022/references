@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testGray1">
+
+    <View
+        android:id="@+id/profile_gradient1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@drawable/gradient_blue_to_green"/>
+
+    <FrameLayout
+        android:id="@+id/profile_fl_imageContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/profile_gradient2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_gradient1"
+        >
+
+        <ImageView
+            android:id="@+id/profile_iv_emblem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha=".55"
+            android:scaleType="centerCrop"
+            android:src="@drawable/epl_manchesterunited" />
+
+        <ImageView
+            android:id="@+id/profile_iv_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:maxWidth="60dp"
+            android:maxHeight="60dp"
+            android:background="@drawable/round_btn"
+            android:layout_gravity="center"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <TextView
+            android:id="@+id/profile_tv_uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/texts.headline"
+            android:text="sean725"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="24dp"/>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/profile_gradient2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/activity_profile_gl_35"
+
+        android:background="@drawable/gradient_blue_to_green"/>
+
+    <TextView
+        android:id="@+id/profile_tv_your_posts"
+        style="@style/texts.headline"
+        android:text="Your Posts"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_gradient2"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container_profile_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_tv_your_posts">
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/activity_profile_gl_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".25"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

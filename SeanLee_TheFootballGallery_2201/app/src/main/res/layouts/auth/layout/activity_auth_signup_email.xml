@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/testGray1"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/auth_signup_email_tv_email"
+        style="@style/texts.body"
+        android:text="Enter your email"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/auth_signup_email_et_email"/>
+
+    <EditText
+        android:id="@+id/auth_signup_email_et_email"
+        style="@style/edittexts.regular"
+
+        android:ems="10"
+        android:hint="enter a username"
+        android:inputType="textPersonName"
+        android:layout_marginTop="4dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/auth_signup_email_gl_45"/>
+
+    <Button
+        android:id="@+id/auth_signup_email_btn_verify"
+        style="@style/buttons"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/gray_03"
+        android:text="Verify Email"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_signup_email_et_email" />
+
+    <Button
+        android:id="@+id/auth_signup_email_btn_next"
+        style="@style/buttons"
+        android:text="next"
+        android:background="@drawable/gradient_blue_to_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/auth_signup_email_gl_45"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_01"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/lv_base_standings_rank"
+        style="@style/texts.body"
+        android:text="10"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_standings_gl1"/>
+
+    <ImageView
+        android:id="@+id/lv_base_standings_logo"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        app:srcCompat="@drawable/epl_manchesterunited"
+        app:layout_constraintStart_toEndOf="@id/lv_base_standings_gl1"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_standings_gl2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_base_standings_teamTitle"
+        style="@style/texts.body"
+        android:text="Wolverhamton Wander"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        app:layout_constraintStart_toEndOf="@id/lv_base_standings_gl2"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_matches_gl3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_base_standings_MP"
+        style="@style/texts.description"
+        android:text="MP"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/lv_base_matches_gl3"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_matches_gl4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_base_standings_pts"
+        style="@style/texts.body"
+        android:textStyle="bold"
+        android:text="PT"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/lv_base_matches_gl4"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_matches_gl5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"  />
+
+    <TextView
+        android:id="@+id/lv_base_standings_W"
+        style="@style/texts.description"
+        android:text="WW"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/lv_base_matches_gl5"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_matches_gl6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"  />
+
+    <TextView
+        android:id="@+id/lv_base_standings_D"
+        style="@style/texts.description"
+        android:text="DD"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/lv_base_matches_gl6"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_matches_gl7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"  />
+
+    <TextView
+        android:id="@+id/lv_base_standings_L"
+        style="@style/texts.description"
+        android:text="LL"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/lv_base_matches_gl7"
+        app:layout_constraintEnd_toStartOf="@id/lv_base_matches_gl8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/lv_base_standings_GD"
+        style="@style/texts.description"
+        android:text="GD"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/lv_base_matches_gl8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"  />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_standings_gl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_standings_gl2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_matches_gl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.51" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_matches_gl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.59" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_matches_gl5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.68" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_matches_gl6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.76" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_matches_gl7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.84" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/lv_base_matches_gl8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92" />
+
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/lv_base_matches_gl9"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_percent="0.81" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF5050</color>
+
+    <color name="gray_01">#4A4A4A</color>
+    <color name="gray_02">#525252</color>
+    <color name="gray_03">#606060</color>
+    <color name="gray_03.5">#A8A8A8</color>
+    <color name="gray_04">#EBEBEB</color>
+
+    <color name="testGray1">#333333</color>
+    <color name="testGray2">#3a3a3a</color>
+    <color name="testGray3">#414141</color>
+    <color name="testGray4">#4f4f4f</color>
+    <color name="testGray5">#646464</color>
+    <color name="testGray6">#727272</color>
+    <color name="testGray7">#A8A8A8</color>
+    <color name="testGray8">#EBEBEB</color>
+
+    <color name="green_01">#5AB750</color>
+    <color name="green_02">#68CE5E</color>
+
+    <color name="tag_epl">#985396</color>
+    <color name="tag_laliga">#1a87a8</color>
+    <color name="tag_bundes">#e43e22</color>
+    <color name="tag_serie">#00919c</color>
+    <color name="tag_ligue1">#0065a9</color>
+    <color name="tag_qna">#fbaf5f</color>
+    <color name="tag_discussion">#b38e50</color>
+    <color name="tag_analysis">#f68b69</color>
+    <color name="tag_news">#969a52</color>
+
+</resources>

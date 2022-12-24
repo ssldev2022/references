@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SeanLee_TFG_ios_2202' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SeanLee_TFG_ios_2202
+
+pod 'Firebase/Firestore'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+
+end

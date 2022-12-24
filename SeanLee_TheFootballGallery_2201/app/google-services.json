@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1028491892557",
+    "project_id": "thefootballgallery-f28cf",
+    "storage_bucket": "thefootballgallery-f28cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028491892557:android:6b60f59a73eb6175654904",
+        "android_client_info": {
+          "package_name": "com.example.seanlee_thefootballgallery_2201"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028491892557-mnhqpvfcb3h990g1iouu4ekkiujkk6ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seanlee_thefootballgallery_2201",
+            "certificate_hash": "3861aaf1c2e650404f9cb063467b04fa74b3e0e1"
+          }
+        },
+        {
+          "client_id": "1028491892557-se4vmacjrdgcktorr6t3kfgf16nketjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0IHVVjHoyue4qCSZKcFgBzxLxnPmcXR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028491892557-se4vmacjrdgcktorr6t3kfgf16nketjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

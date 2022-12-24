@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_01"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".1">
+
+        <TextView
+            android:id="@+id/lv_base_news_item_author"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Author"
+            android:textColor="@color/gray_03.5" />
+
+        <TextView
+            android:id="@+id/lv_base_item_middleDot"
+            style="@style/texts.body"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/middle_dot"
+            android:textColor="@color/gray_03.5" />
+
+        <TextView
+            android:id="@+id/lv_base_news_item_date"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Date"
+            android:textColor="@color/gray_03.5" />
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="4dp"
+        android:id="@+id/lv_base_news_item_title"
+        style="@style/texts.headline"
+        android:layout_width="match_parent"
+        android:layout_weight=".45"
+        android:text="Placeholder" />
+
+    <TextView
+        android:padding="4dp"
+        android:id="@+id/lv_base_news_item_desc"
+        style="@style/texts.body"
+        android:layout_width="match_parent"
+        android:layout_weight=".45"
+        android:text="Placeholder" />
+
+</LinearLayout>

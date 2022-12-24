@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">SeanLee_TheFootballGallery_2201</string>
+    <string name="middle_dot">·</string>
+
+    <string-array name="category">
+        <item>News</item>
+        <item>Analysis</item>
+        <item>Discussion</item>
+        <item>Question</item>
+    </string-array>
+
+    <!--  send as bool[] for news, send as int for matches and standings  -->
+    <string-array name="filter_options_default">
+        <item>EPL</item>
+        <item>La Liga</item>
+        <item>Bundesliga</item>
+        <item>Serie A</item>
+        <item>Ligue 1</item>
+    </string-array>
+
+    <string-array name="filter_options_forum">
+        <item>EPL</item>
+        <item>La Liga</item>
+        <item>Bundesliga</item>
+        <item>Serie A</item>
+        <item>Ligue 1</item>
+        <item>News</item>
+        <item>Analysis</item>
+        <item>Discussion</item>
+        <item>Question</item>
+    </string-array>
+
+    <string-array name="sort_options_forum">
+        <item>newest</item>
+        <item>popular</item>
+    </string-array>
+
+    <string-array name="leagues_full">
+        <item>England - English Premier League</item>
+        <item>Spain - Primera La Liga</item>
+        <item>Germany - 1. Bundesliga</item>
+        <item>Italy - Serie A</item>
+        <item>France - Ligue 1</item>
+    </string-array>
+
+    <string-array name="leagues_abbv">
+        <item>EPL</item>
+        <item>La Liga</item>
+        <item>Bundesliga</item>
+        <item>Serie A</item>
+        <item>Ligue 1</item>
+    </string-array>
+
+    <string-array name="leagues_logo_str">
+        <item>m_laliga.png</item>
+        <item>m_bundes.png</item>
+        <item>m_epl.png</item>
+        <item>m_ligue1.png</item>
+        <item>m_seriea.png</item>
+    </string-array>
+
+    <string-array name="teams_epl">
+        <item>Arsenal</item>
+        <item>Aston Villa</item>
+        <item>Brentford</item>
+        <item>Brighton &amp; Hove Albion</item>
+        <item>Burnley</item>
+        <item>Chelsea</item>
+        <item>Crystal Palace</item>
+        <item>Everton</item>
+        <item>Leeds United</item>
+        <item>Leicester City</item>
+        <item>Liverpool</item>
+        <item>Manchester City</item>
+        <item>Manchester United</item>
+        <item>Newcastle United</item>
+        <item>Norwich City</item>
+        <item>Southampton</item>
+        <item>Tottenham Hotspur</item>
+        <item>Watford</item>
+        <item>West Ham United</item>
+        <item>Wolverhampton Wanderers</item>
+    </string-array>
+
+    <string-array name="teams_laliga">
+        <item>Alavés</item>
+        <item>Athletic Bilbao</item>
+        <item>Atlético Madrid</item>
+        <item>Barcelona</item>
+        <item>Betis</item>
+        <item>Cádiz</item>
+        <item>Celta</item>
+        <item>Elche</item>
+        <item>Espanyol</item>
+        <item>Getafe</item>
+        <item>Granada</item>
+        <item>Levante</item>
+        <item>Mallorca</item>
+        <item>Osasuna</item>
+        <item>Rayo Vallecano</item>
+        <item>Real MadridReal</item>
+        <item>Sociedad</item>
+        <item>Sevilla</item>
+        <item>Valencia</item>
+        <item>Villarreal</item>
+    </string-array>
+
+    <string-array name="teams_bundes">
+        <item>1. FC Köln</item>
+        <item>1. FC Union Berlin</item>
+        <item>1. FSV Mainz 05</item>
+        <item>1899 Hoffenheim</item>
+        <item>Arminia Bielefeld</item>
+        <item>Bayer Leverkusen</item>
+        <item>Bayern München</item>
+        <item>Bor. Mönchengladbach</item>
+        <item>Borussia Dortmund</item>
+        <item>Eintracht Frankfurt</item>
+        <item>FC Augsburg</item>
+        <item>Hertha BSC</item>
+        <item>RB Leipzig</item>
+        <item>SC Freiburg</item>
+        <item>SpVgg Greuther Fürth</item>
+        <item>VfB Stuttgart</item>
+        <item>VfL Bochum</item>
+        <item>VfL Wolfsburg</item>
+    </string-array>
+
+    <string-array name="teams_ligue1">
+        <item>Angers</item>
+        <item>Bordeaux</item>
+        <item>Brest</item>
+        <item>Clermont</item>
+        <item>Lens</item>
+        <item>Lille</item>
+        <item>Lorient</item>
+        <item>Lyon</item>
+        <item>Marseille</item>
+        <item>Metz</item>
+        <item>Monaco</item>
+        <item>Montpellier</item>
+        <item>Nantes</item>
+        <item>Nice</item>
+        <item>Paris Saint-Germain</item>
+        <item>Reims</item>
+        <item>Rennes</item>
+        <item>Saint-Étienne</item>
+        <item>Strasbourg</item>
+        <item>Troyes</item>
+    </string-array>
+
+    <string-array name="teams_seriea">
+        <item>Atalanta</item>
+        <item>Bologna</item>
+        <item>Cagliari</item>
+        <item>Empoli</item>
+        <item>Fiorentina</item>
+        <item>Genoa</item>
+        <item>Hellas Verona</item>
+        <item>Internazionale</item>
+        <item>Juventus</item>
+        <item>Lazio</item>
+        <item>Milan</item>
+        <item>Napoli</item>
+        <item>Roma</item>
+        <item>Salernitana</item>
+        <item>Sampdoria</item>
+        <item>Sassuolo</item>
+        <item>Spezia</item>
+        <item>Torino</item>
+        <item>Udinese</item>
+        <item>Venezia</item>
+    </string-array>
+
+    <string-array name="arr_epl_logo_str">
+        <item>epl_arsenal</item>
+        <item>epl_astonvilla</item>
+        <item>epl_brentford</item>
+        <item>epl_brighton</item>
+        <item>epl_burnley</item>
+        <item>epl_chelsea</item>
+        <item>epl_crystalpalace</item>
+        <item>epl_everton</item>
+        <item>epl_leeds</item>
+        <item>epl_leicestercity</item>
+        <item>epl_liverpool</item>
+        <item>epl_manchestercity</item>
+        <item>epl_manchesterunited</item>
+        <item>epl_newcastle</item>
+        <item>epl_norwich</item>
+        <item>epl_southamton</item>
+        <item>epl_tottenham</item>
+        <item>epl_watford</item>
+        <item>epl_westham</item>
+        <item>epl_wolves</item>
+
+    </string-array>
+
+    <string-array name="arr_laliga_logo_str">
+        <item>laliga_barca</item>
+        <item>laliga_alaves</item>
+        <item>laliga_athleticbilbao</item>
+        <item>laliga_atm</item>
+        <item>laliga_betis</item>
+        <item>laliga_cadiz</item>
+        <item>laliga_celta</item>
+        <item>laliga_elche</item>
+        <item>laliga_espanyol</item>
+        <item>laliga_getafe</item>
+        <item>laliga_granada</item>
+        <item>laliga_levante</item>
+        <item>laliga_mallorca</item>
+        <item>laliga_osasuna</item>
+        <item>laliga_rayovallecano</item>
+        <item>laliga_realmadrid</item>
+        <item>laliga_realsociedad</item>
+        <item>laliga_sevilla</item>
+        <item>laliga_valencia</item>
+        <item>laliga_villareal</item>
+    </string-array>
+
+    <string-array name="arr_bundes_logo_str">
+        <item>bundes_koln</item>
+        <item>bundes_unionberlin</item>
+        <item>bundes_mainz</item>
+        <item>bundes_hoffenheim</item>
+        <item>bundes_arminia</item>
+        <item>bundes_leverkusen</item>
+        <item>bundes_bayern</item>
+        <item>bundes_borussiamonchengladbach</item>
+        <item>bundes_dortmund</item>
+        <item>bundes_frankfurt</item>
+        <item>bundes_augsburg</item>
+        <item>bundes_herthabsc</item>
+        <item>bundes_rbleipzig</item>
+        <item>bundes_scfreiburg</item>
+        <item>bundes_greutherfurth</item>
+        <item>bundes_vfbstuttgart</item>
+        <item>bundes_vflbochum</item>
+        <item>bundes_vflwolfsburg</item>
+    </string-array>
+
+
+    <string-array name="arr_serie_logo_str">
+        <item>seriea_genoa</item>
+        <item>seriea_atalanta</item>
+        <item>seriea_bologna</item>
+        <item>seriea_cagliari</item>
+        <item>seriea_empoli</item>
+        <item>seriea_fiorentina</item>
+        <item>seriea_hellasverona</item>
+        <item>seriea_internazionale</item>
+        <item>seriea_juve</item>
+        <item>seriea_lazio</item>
+        <item>seriea_milan</item>
+        <item>seriea_napoli</item>
+        <item>seriea_roma</item>
+        <item>seriea_salernitana</item>
+        <item>seriea_sampdoria</item>
+        <item>seriea_sassuolo</item>
+        <item>seriea_spezia</item>
+        <item>seriea_torino</item>
+        <item>seriea_udinese</item>
+        <item>seriea_venezia</item>
+    </string-array>
+
+    <string-array name="arr_ligue1_logo_str">
+        <item>ligue1_angers</item>
+        <item>ligue1_bordeaux</item>
+        <item>ligue1_brest</item>
+        <item>ligue1_clermont</item>
+        <item>ligue1_lens</item>
+        <item>ligue1_lille</item>
+        <item>ligue1_lorient</item>
+        <item>ligue1_lyon</item>
+        <item>ligue1_marseille</item>
+        <item>ligue1_metz</item>
+        <item>ligue1_monaco</item>
+        <item>ligue1_montpellier</item>
+        <item>ligue1_nantes</item>
+        <item>ligue1_nice</item>
+        <item>ligue1_psg</item>
+        <item>ligue1_reims</item>
+        <item>ligue1_rennes</item>
+        <item>ligue1_saintetienne</item>
+        <item>ligue1_strasbourg</item>
+        <item>ligue1_troyes</item>
+    </string-array>
+</resources>

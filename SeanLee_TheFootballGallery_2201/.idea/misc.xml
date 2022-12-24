@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.15260416666666668" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/border_textview.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/fab_gradient.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/gradient_blue_to_green.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_applogo2.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_48.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.3453703703703704" />
+        <entry key="app/src/main/res/drawable/ic_comment.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_forum.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_like.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_like_clicked.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/ic_matches.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/drawable/ic_sort_svgrepo_com.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/drawable/ic_standings.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/ic_tfg_app_logo.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_tfglogo.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_ycard.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/ic_ycard_clicked.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/no_border_textview.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/round_btn.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/round_iv_background.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/round_iv_foreground.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_analysis.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_bundes.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_discussion.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_epl.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_laliga.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_ligue1.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_news.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_question.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/tag_serie.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layouts/auth/layout/activity_auth_home.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/auth/layout/activity_auth_signup.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/auth/layout/activity_auth_signup_confirmation.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/auth/layout/activity_auth_signup_email.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/auth/layout/activity_auth_signup_profile.xml" value="0.55" />
+        <entry key="app/src/main/res/layouts/auth/layout/activity_main.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/activity_core.xml" value="0.33" />
+        <entry key="app/src/main/res/layouts/core/layout/activity_forum_detail.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/activity_forum_form.xml" value="0.25" />
+        <entry key="app/src/main/res/layouts/core/layout/activity_fragment.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/activity_news_detail.xml" value="0.33" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_core.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_forum.xml" value="0.22" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_forum_detail_comments.xml" value="0.31296296296296294" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_matches.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_news.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_news_detail.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/core/layout/fragment_standings.xml" value="0.5" />
+        <entry key="app/src/main/res/layouts/minor/layout/activity_inbox.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/minor/layout/activity_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layouts/minor/layout/activity_profile_edit.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/minor/layout/fragment_profile.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/view/drawable/ic_applogo.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layouts/view/drawable/ic_baseline_album_24.xml" value="0.3453703703703704" />
+        <entry key="app/src/main/res/layouts/view/drawable/ic_baseline_logout_24.xml" value="0.2484375" />
+        <entry key="app/src/main/res/layouts/view/drawable/ic_forum.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layouts/view/drawable/ic_matches.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layouts/view/layout/custom_title_bar.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layouts/view/layout/fragment_forum.xml" value="1.0" />
+        <entry key="app/src/main/res/layouts/view/layout/lv_comment_layout.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/view/layout/lv_forum_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layouts/view/layout/lv_matches_layout.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/view/layout/lv_news_layout.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/view/layout/lv_profile_posts_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layouts/view/layout/lv_standings_layout.xml" value="0.3875" />
+        <entry key="app/src/main/res/layouts/view/layout/sp_layout.xml" value="0.3875" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.3875" />
+        <entry key="app/src/main/res/menu/default_menu.xml" value="0.38153846153846155" />
+        <entry key="app/src/main/res/menu/filter_inbox_profile_menu.xml" value="0.271875" />
+        <entry key="app/src/main/res/menu/filter_option_menu.xml" value="0.38153846153846155" />
+        <entry key="app/src/main/res/menu/filteroption_menu.xml" value="0.3875" />
+        <entry key="app/src/main/res/menu/forum_detail_menu.xml" value="0.37592592592592594" />
+        <entry key="app/src/main/res/menu/forum_menu.xml" value="0.271875" />
+        <entry key="app/src/main/res/menu/profile_edit_menu.xml" value="0.38153846153846155" />
+        <entry key="app/src/main/res/menu/profile_menu.xml" value="0.271875" />
+        <entry key="app/src/main/res/menu/sort_option_menu.xml" value="0.3875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

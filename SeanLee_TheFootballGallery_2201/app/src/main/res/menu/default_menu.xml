@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:id="@+id/default_menu_filter"
+        android:title="filter"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/default_menu_inbox"
+        android:title="inbox"
+        android:icon="@drawable/ic_notifications_no_badge"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/default_menu_profile"
+        android:title="profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+</menu>

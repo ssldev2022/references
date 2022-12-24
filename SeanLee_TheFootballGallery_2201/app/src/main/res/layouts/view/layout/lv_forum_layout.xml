@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_01"
+    android:padding="4dp">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:padding="6dp">
+
+         <TextView
+             android:id="@+id/lv_base_forum_item_filter_league"
+             style="@style/texts.body"
+             android:background="@drawable/border_textview"
+             android:focusable="false"
+             android:focusableInTouchMode="false"
+             android:layout_width="wrap_content"
+             android:paddingStart="4dp"
+             android:paddingEnd="4dp"
+             android:text=" EPL "/>
+
+         <TextView
+             android:layout_marginStart="6dp"
+             android:id="@+id/lv_base_forum_item_filter_category"
+             style="@style/texts.body"
+             android:paddingStart="4dp"
+             android:paddingEnd="4dp"
+             android:background="@drawable/border_textview"
+             android:focusable="false"
+             android:focusableInTouchMode="false"
+             android:layout_width="wrap_content"
+             android:text=" Discussion "/>
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingStart="2dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="2dp">
+
+        <ImageView
+            android:id="@+id/lv_base_forum_iv_emblem"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/lv_base_forum_item_author"
+            style="@style/texts.body"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:text="gloryunited1999" />
+
+        <TextView
+            android:id="@+id/lv_base_forum_item_middledot"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:text="@string/middle_dot"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/lv_base_forum_item_timestamp"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:text="9h"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/lv_base_forum_item_title"
+        style="@style/texts.headline"
+        android:layout_width="match_parent"
+        android:text="Title comes here"
+        android:layout_weight=".45"
+        android:paddingStart="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="6dp"/>
+
+    <TextView
+        android:id="@+id/lv_base_forum_item_desc"
+        style="@style/texts.body"
+        android:layout_width="match_parent"
+        android:text="content comes here"
+        android:layout_weight=".45"
+        android:paddingStart="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageButton
+            android:id="@+id/lv_base_forum_btn_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_like"
+            android:background="@color/gray_02"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/lv_base_forum_tv_like_count"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:text="35"
+            android:layout_marginStart="6dp"/>
+
+        <ImageButton
+            android:id="@+id/lv_base_forum_btn_ycard"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ycard"
+            android:background="@color/gray_02"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/lv_base_forum_tv_ycard_count"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:text="35"
+            android:layout_marginStart="6dp"/>
+
+        <ImageButton
+            android:id="@+id/lv_base_forum_btn_comment"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_comment"
+            android:background="@color/gray_02"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/lv_base_forum_tv_comment_count"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:text="35"
+            android:layout_marginStart="6dp"/>
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/lv_base_forum_btn_share"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_baseline_share_24"-->
+<!--            android:background="@color/gray_02"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/lv_base_forum_tv_share_count"-->
+<!--            style="@style/texts.body"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="35"-->
+<!--            android:layout_marginStart="4dp"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

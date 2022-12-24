@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testGray1">
+
+
+
+
+    <ImageView
+        android:id="@+id/profile_edit_iv_photo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/profile_edit_tv_uname"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/profile_edit_tv_uname"
+        android:text="select your username"
+        style="@style/texts.headline"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/activity_profile_edit_gl_35"/>
+
+    <EditText
+        android:id="@+id/profile_edit_et_uname"
+        style="@style/edittexts.regular"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"
+        android:text="username"
+        android:hint="enter username here.."
+        app:layout_constraintStart_toStartOf="@id/profile_edit_tv_uname"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_tv_uname"
+        app:layout_constraintTop_toBottomOf="@id/profile_edit_tv_uname"/>
+
+    <TextView
+        android:id="@+id/profile_edit_tv_emblem"
+
+        android:text="choose your emblem"
+        style="@style/texts.headline"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@id/profile_edit_et_uname"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_et_uname"
+        app:layout_constraintTop_toBottomOf="@id/profile_edit_et_uname"/>
+
+    <TextView
+        android:id="@+id/profile_edit_tv_league"
+        android:text="select a league"
+        style="@style/texts.body"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/profile_edit_tv_emblem"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_tv_emblem"
+        app:layout_constraintTop_toBottomOf="@id/profile_edit_tv_emblem"/>
+
+    <Spinner
+        android:id="@+id/profile_edit_sp_league"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_01"
+        app:layout_constraintStart_toStartOf="@id/profile_edit_tv_league"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_tv_league"
+        app:layout_constraintTop_toBottomOf="@id/profile_edit_tv_league"/>
+
+    <TextView
+        android:id="@+id/profile_edit_tv_team"
+        style="@style/texts.body"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/profile_edit_sp_league"
+        app:layout_constraintStart_toStartOf="@id/profile_edit_sp_league"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_sp_league"
+        android:text="select a team" />
+
+
+    <Spinner
+        android:id="@+id/profile_edit_sp_team"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_01"
+        app:layout_constraintStart_toStartOf="@id/profile_edit_tv_team"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_tv_team"
+        app:layout_constraintTop_toBottomOf="@id/profile_edit_tv_team"/>
+
+    <Button
+        android:id="@+id/profile_edit_btn_save"
+        style="@style/buttons"
+        android:background="@drawable/gradient_blue_to_green"
+        android:text="save"
+        app:layout_constraintStart_toStartOf="@id/profile_edit_sp_team"
+        app:layout_constraintEnd_toEndOf="@id/profile_edit_sp_team"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="12dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/activity_profile_edit_gl_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

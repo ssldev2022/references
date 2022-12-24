@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testGray1"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/auth_signup_profile_tv_photo"
+        style="@style/texts.body"
+        android:text="Add a profile photo"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/auth_signup_profile_btn_photo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+
+        android:scaleType="centerCrop"
+
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/gray_03"
+        android:src="@drawable/ic_baseline_add_48"
+
+        android:layout_marginTop="12dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_tv_photo" />
+
+    <TextView
+        android:id="@+id/auth_signup_profile_tv_uname"
+        style="@style/texts.body"
+
+        android:text="Select your username"
+
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_btn_photo" />
+
+    <EditText
+        android:id="@+id/auth_signup_profile_et_uname"
+        style="@style/edittexts.regular"
+        android:ems="10"
+        android:hint="enter a username"
+        android:inputType="textPersonName"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_tv_uname" />
+
+    <TextView
+        android:id="@+id/auth_signup_profile_err_uname"
+        style="@style/texts.body"
+        android:textColor="@color/red"
+        android:text="username exists."
+
+        android:layout_marginTop="2dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_signup_profile_et_uname"/>
+
+
+    <TextView
+        android:id="@+id/auth_signup_profile_tv_pwd"
+        style="@style/texts.body"
+
+        android:text="Select your password"
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_err_uname" />
+
+    <EditText
+        android:id="@+id/auth_signup_profile_et_pwd"
+        style="@style/edittexts.regular"
+        android:ems="10"
+        android:hint="enter a password"
+        android:inputType="textPersonName"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_tv_pwd" />
+
+    <EditText
+        android:id="@+id/auth_signup_profile_et_conf_pwd"
+        style="@style/edittexts.regular"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPersonName"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_et_pwd" />
+
+    <TextView
+        android:id="@+id/auth_signup_profile_err_pwd"
+        style="@style/texts.body"
+        android:textColor="@color/red"
+        android:text="passwords doesn't match."
+
+        android:layout_marginTop="2dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_signup_profile_et_conf_pwd"/>
+
+    <TextView
+        android:id="@+id/auth_signup_profile_tv_emblem"
+        style="@style/texts.body"
+        android:layout_marginTop="8dp"
+
+        android:text="Select your favorite team"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_signup_profile_err_pwd"/>
+
+    <TextView
+        android:id="@+id/auth_signup_profile_tv_emblem_league"
+        style="@style/texts.body"
+        android:text="Choose a league"
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_tv_emblem" />
+
+    <Spinner
+        android:id="@+id/auth_signup_profile_spinner_emblem_league"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/gray_01"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_signup_profile_tv_emblem_league" />
+
+    <TextView
+        android:id="@+id/auth_signup_profile_tv_emblem_team"
+        style="@style/texts.body"
+        android:text="Choose a team"
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_signup_profile_spinner_emblem_league"/>
+
+    <Spinner
+        android:id="@+id/auth_signup_profile_spinner_emblem_team"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/gray_01"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_signup_profile_tv_emblem_team"/>
+
+    <Button
+        android:id="@+id/auth_signup_profile_btn_done"
+        style="@style/buttons"
+        android:text="complete sign up"
+        android:background="@drawable/gradient_blue_to_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_01"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lv_base_profile_post_filter"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/border_textview"
+            android:text=" EPL " />
+
+        <TextView
+            android:id="@+id/lv_base_profile_post_category"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/border_textview"
+            android:text=" Discussion " />
+
+        <TextView
+            android:id="@+id/lv_base_profile_post_timestamp"
+            style="@style/texts.body"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:text="8h"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageButton
+                android:id="@+id/lv_base_profile_post_btn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_01"
+                android:layout_marginEnd="4dp"
+                android:layout_marginTop="4dp"
+                app:srcCompat="@drawable/ic_baseline_more_horiz_24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lv_base_profile_post_title"
+        style="@style/texts.headline"
+        android:paddingTop="4dp"
+        android:layout_width="wrap_content"
+        android:text="title"/>
+
+    <TextView
+        android:id="@+id/lv_base_profile_post_desc"
+        style="@style/texts.body"
+        android:layout_width="wrap_content"
+        android:text="desc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:paddingTop="4dp">
+
+        <ImageButton
+            android:id="@+id/lv_base_profile_post_btn_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_01"
+            app:srcCompat="@drawable/ic_like"/>
+
+        <TextView
+            android:id="@+id/lv_base_profile_post_tv_like"
+            style="@style/texts.body"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:text="35"/>
+
+        <ImageButton
+            android:id="@+id/lv_base_profile_post_btn_ycard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_01"
+            android:layout_marginStart="6dp"
+            app:srcCompat="@drawable/ic_ycard"/>
+
+        <TextView
+            android:id="@+id/lv_base_profile_post_tv_ycard"
+            style="@style/texts.body"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:text="35"/>
+
+        <ImageButton
+            android:id="@+id/lv_base_profile_post_btn_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_01"
+            app:srcCompat="@drawable/ic_comment"
+            android:layout_marginStart="6dp"/>
+
+        <TextView
+            android:id="@+id/lv_base_profile_post_tv_comment"
+            style="@style/texts.body"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:text="35"/>
+    </LinearLayout>
+
+
+</LinearLayout>

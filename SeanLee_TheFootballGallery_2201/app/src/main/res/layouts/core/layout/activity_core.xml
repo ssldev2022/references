@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/testGray1">
+
+    <FrameLayout
+        android:id="@+id/core_progressBarView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/testGray1">
+
+        <ProgressBar
+            android:id="@+id/core_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/texts.headline"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="24dp"
+            android:text="Loading..."/>
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/entire_core_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/core_filter_tag_holder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_blue_to_green"
+            android:padding="6dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/core_tv_filter"
+                    style="@style/texts.body"
+                    android:background="@drawable/border_textview"
+                    android:layout_marginStart="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" filter:  "/>
+
+                <TextView
+                    android:id="@+id/core_tv_sort"
+                    style="@style/texts.body"
+                    android:background="@drawable/border_textview"
+                    android:layout_marginStart="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" sort: Popular " />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/core_filter_tag_holder"
+            app:layout_constraintBottom_toTopOf="@id/bottom_nav_view">
+
+
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_core_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:foreground="@drawable/fab_gradient"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/bottom_nav_view"
+
+            android:clickable="true"
+            />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav_view"
+            android:theme="@style/bottomNavBar"
+            app:menu="@menu/bottom_navigation_menu"
+            android:background="@drawable/gradient_blue_to_green"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

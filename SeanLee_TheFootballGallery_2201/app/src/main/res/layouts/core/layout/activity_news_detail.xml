@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/testGray1"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/news_detail_tv_author"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_03.5"
+            android:text="TextView"/>
+
+        <TextView
+            android:id="@+id/news_detail_tv_dot"
+            style="@style/texts.body"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_03.5"
+            android:text="@string/middle_dot"/>
+
+        <TextView
+            android:id="@+id/news_detail_tv_date"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_03.5"
+            android:text="TextView"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/news_detail_tv_title"
+        style="@style/texts.headline"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:text="TextView" />
+
+    <ScrollView
+        android:id="@+id/news_detail_sv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/news_detail_tv_desc"
+            style="@style/texts.body"
+            android:layout_width="match_parent"
+            android:text="TextView"/>
+
+    </ScrollView>
+
+
+</LinearLayout>

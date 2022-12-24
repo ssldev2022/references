@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seanlee_thefootballgallery_2201">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SeanLee_TheFootballGallery_2201"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".a_authentications.AuthHome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".a_authentications.AuthSignUpEmail"
+            android:label="Email Verification"/>
+        <activity android:name=".a_authentications.AuthSignUpProfile"
+            android:label="Sign Up" />
+        <activity android:name=".a_authentications.AuthSignUpConfirmation"
+            android:label="Sign Up Confirmation" />
+        <activity android:name=".b_core.CoreActivity"
+            android:label="Core" />
+        <activity android:name=".b_core.NewsDetailActivity"
+            android:label="Detail" />
+        <activity android:name=".b_core.ForumDetailActivity"
+            android:label="Detail" />
+        <activity android:name=".b_core.ForumFormActivity"
+            android:label="Add a post" />
+        <activity android:name=".d_profiles.ProfileActivity"
+            android:label="Profile" />
+        <activity android:name=".d_profiles.ProfileEditActivity"
+            android:label="Edit your profile" />
+        <activity android:name=".c_inboxes.InboxActivity"
+            android:label="Inbox" />
+
+        <provider
+            android:authorities="com.example.seanlee_thefootballgallery_2201"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

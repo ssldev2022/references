@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testGray1"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/auth_home_iv_logo"
+        android:layout_width="169dp"
+        android:layout_height="235dp"
+        android:src="@drawable/ic_tfg_app_logo"
+        app:layout_constraintBottom_toBottomOf="@id/auth_home_gl_25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/auth_home_gl_25" />
+
+    <EditText
+        android:id="@+id/auth_home_et_email"
+        android:ems="10"
+        android:hint="enter an email"
+        style="@style/edittexts.regular"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="72dp"
+        app:layout_constraintBottom_toTopOf="@id/auth_home_gl_55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_home_iv_logo" />
+
+    <TextView
+        android:id="@+id/auth_home_err_id"
+        style="@style/texts.body"
+        android:textColor="@color/red"
+        android:text="incorrect email"
+        app:layout_constraintTop_toBottomOf="@id/auth_home_et_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/auth_home_et_pwd"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="enter a password"
+        style="@style/edittexts.regular"
+        android:inputType="textPassword"
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_home_err_id"
+        />
+
+    <TextView
+        android:id="@+id/auth_home_err_pwd"
+        style="@style/texts.body"
+        android:layout_width="wrap_content"
+        android:textColor="@color/red"
+        android:text="incorrect password"
+        app:layout_constraintTop_toBottomOf="@id/auth_home_et_pwd"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/auth_home_btn_forgot"
+        android:text="Forgot Password?"
+        android:clickable="true"
+        android:layout_marginTop="4dp"
+        style="@style/texts.body"
+
+        app:layout_constraintTop_toBottomOf="@id/auth_home_et_pwd"
+        app:layout_constraintEnd_toEndOf="@id/auth_home_et_pwd"/>
+
+
+    <Button
+        android:id="@+id/auth_home_btn_login"
+        android:text="Login"
+        style="@style/buttons"
+        android:layout_height="36dp"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient_blue_to_green"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_home_err_pwd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auth_home_btn_login">
+        <TextView
+            android:id="@+id/auth_home_tv_dont_have_acc"
+            android:layout_width="wrap_content"
+            style="@style/texts.body"
+            android:text="Don't have an account?"
+            android:layout_marginEnd="4dp"/>
+
+        <TextView
+            android:id="@+id/auth_home_btn_signup"
+            style="@style/texts.body"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/auth_home_gl_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/auth_home_gl_55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/auth_home_gl_75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

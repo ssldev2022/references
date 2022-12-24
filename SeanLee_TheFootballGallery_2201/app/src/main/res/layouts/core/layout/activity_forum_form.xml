@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testGray1"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/forum_form_tv_league"
+        style="@style/texts.body"
+        android:text="select a league"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/forum_form_sp_league"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forum_form_tv_league" />
+
+    <TextView
+        android:id="@+id/forum_form_tv_category"
+        style="@style/texts.body"
+        android:layout_marginTop="8dp"
+        android:text="select a category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forum_form_sp_league" />
+
+    <Spinner
+        android:id="@+id/forum_form_sp_category"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forum_form_tv_category" />
+
+    <TextView
+        android:id="@+id/forum_form_tv_title"
+        style="@style/texts.body"
+        android:layout_marginTop="8dp"
+        android:text="title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forum_form_sp_category" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/forum_form_til_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_01"
+
+        android:textColorHint="@color/gray_04"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forum_form_tv_title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/forum_form_tf_title"
+            style="@style/texts.body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_01"
+
+            android:hint="Enter a title...">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/forum_form_tv_content"
+        style="@style/texts.body"
+        android:layout_marginTop="8dp"
+
+        android:text="content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forum_form_til_title" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/forum_form_til_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginBottom="8dp"
+        android:background="@color/gray_01"
+
+        android:textColorHint="@color/gray_04"
+        app:layout_constraintBottom_toTopOf="@id/forum_form_usermsg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forum_form_tv_content"
+        app:placeholderText="Fill contents here..">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/forum_form_tf_content"
+            style="@style/texts.body"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@color/gray_01"
+            android:hint="Enter contents here..">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/forum_form_usermsg1"
+        style="@style/texts.body"
+        android:text="Remember!"
+
+        android:layout_marginBottom="4dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/forum_form_usermsg2"/>
+
+    <TextView
+        android:id="@+id/forum_form_usermsg2"
+        style="@style/texts.description"
+        android:text="Other users may report your post if content contains violation,
+aggressive, hate speech, or negative attitude."
+
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toTopOf="@id/forum_form_btn_post"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/forum_form_btn_post"
+        style="@style/buttons"
+        android:text="Post"
+        android:background="@drawable/gradient_blue_to_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edittexts">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/avenir_regular</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@color/gray_01</item>
+        <item name="android:textColor">@color/gray_04</item>
+        <item name="android:textColorHint">@color/gray_03.5</item>
+    </style>
+
+    <style name="edittexts.regular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <style name="edittexts.content">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="texts">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_04</item>
+        <item name="android:textColorHint">@color/gray_04</item>
+    </style>
+
+    <style name="texts.title">
+        <item name="fontFamily">@font/avenir_heavy</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="texts.headline">
+        <item name="fontFamily">@font/avenir_heavy</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="texts.body">
+        <item name="fontFamily">@font/avenir_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="texts.description">
+        <item name="fontFamily">@font/avenir_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="buttons">
+        <item name="fontFamily">@font/avenir_heavy</item>
+        <item name="android:textSize">14sp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="background">@drawable/gradient_blue_to_green</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="bottomNavBar">
+        <item name="colorPrimary">@color/gray_04</item>
+        <item name="android:colorForeground">@color/gray_03</item>
+    </style>
+</resources>

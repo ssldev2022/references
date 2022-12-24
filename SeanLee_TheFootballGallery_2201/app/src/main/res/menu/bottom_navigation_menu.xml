@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bnv_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_news"
+        android:title="news"/>
+
+    <item
+        android:id="@+id/bnv_forum"
+        android:enabled="true"
+        android:icon="@drawable/ic_forum"
+        android:title="forum" />
+
+    <item
+        android:id="@+id/bnv_matches"
+        android:enabled="true"
+        android:icon="@drawable/ic_matches"
+        android:title="matches"/>
+
+    <item
+        android:id="@+id/bnv_standings"
+        android:enabled="true"
+        android:icon="@drawable/ic_standings"
+        android:title="standings"/>
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/profile_edit_menu_album"
+        android:title="album"
+        android:icon="@drawable/ic_baseline_album_24"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/profile_edit_menu_camera"
+        android:title="camera"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+</menu>
